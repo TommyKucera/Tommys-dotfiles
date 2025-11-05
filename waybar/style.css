@@ -1,0 +1,98 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+    background-color: rgba(0, 0, 0, 0);
+    color: @foreground;
+
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: "Pixel Operator Mono 8";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.modules-left {
+    margin-left: 15px;
+}
+
+.modules-right {
+    margin-right: 15px;
+    padding-left: 20px;
+    min-width: 5px;
+}
+
+#workspaces button {
+    all: initial;
+    padding: 0 5px;
+    margin: 0 7px;
+    min-width: 5px;
+}
+
+#workspaces button.empty {
+    opacity: 0.5;
+}
+
+#cpu {
+    font-size: 12px;
+    margin-right: 13px;
+}
+#battery {
+    font-size: 12px;
+    margin-right: 7px;
+}
+#pulseaudio {
+    font-size: 12px;
+    margin-right: 17px;
+}
+#custom-omarchy {
+    font-size: 20px;
+    margin-right: 16px;
+}
+#custom-screenrecording-indicator,
+#custom-update {
+    min-width: 12px;
+    margin: 0 7.5px;
+}
+
+#tray {
+    margin-right: 16px;
+}
+
+#bluetooth {
+    margin-right: 12px;
+}
+
+#network {
+    margin-right: 17px;
+}
+
+#custom-expand-icon {
+    margin-right: 20px;
+}
+
+tooltip {
+    padding: 2px;
+}
+
+#custom-update {
+    font-size: 18px;
+}
+
+#clock {
+    margin-left: 8.75px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+    min-width: 12px;
+    margin-left: 8.75px;
+    font-size: 18px;
+}
+
+#custom-screenrecording-indicator.active {
+    color: #a55555;
+}
